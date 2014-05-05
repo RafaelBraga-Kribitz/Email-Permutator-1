@@ -46,14 +46,5 @@ class Permutate:
         except:
             print "Syntax: python permutate_new.py -f <firstname> -l <lastname>] "
 
-
-    def identify_matches(self):
-        """
-            identify_matches():
-                This method identifies valid emails against the rapportive api.
-        """
-        
-
-
 if __name__ == '__main__':
    pm = Permutate()
